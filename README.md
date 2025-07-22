@@ -68,3 +68,11 @@
 </p>
 
 ---
+
+### 📊 Моя статистика
+
+![Моя статистика на GitHub](https://github-readme-stats.vercel.app/api?username=Doomsday058&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true)
+
+![Мои самые используемые языки](https://github-readme-stats.vercel.app/api/top-langs/?username=Doomsday058&layout=compact&theme=tokyonight&hide_border=true)
+
+---
