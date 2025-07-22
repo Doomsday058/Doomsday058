@@ -29,3 +29,27 @@
 * **3D-игра «Лабиринт с элементами хоррора»:**
     * Проект на движке **Unity (C#)**, вдохновленный атмосферой *The Backrooms*.
     * Реализовал процедурную генерацию лабиринтов, проработал атмосферу и добавил скримеров для создания напряжения.
+      
+### 🛠️ Мой стек технологий
+
+<table>
+  <tr>
+    <td align="center">
+        <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript" />
+    </td>
+    <td align="center">
+        <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+    </td>
+    <td align="center">
+        <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+    </td>
+    <td align="center">
+        <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+    </td>
+     <td align="center">
+        <img src="https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#" />
+    </td>
+  </tr>
+</table>
+
+---
