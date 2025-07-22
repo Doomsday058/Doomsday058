@@ -35,7 +35,7 @@
 ---
 
 <details>
-<summary><b>🛠️ Посмотреть мой стек и инструменты</b></summary>
+<summary><b>🛠️ Стек технологий</b></summary>
 <br>
 
 #### 🧠 Языки программирования
@@ -74,7 +74,7 @@
 ---
 
 <details>
-<summary><b>📊 Посмотреть мою статистику на GitHub</b></summary>
+<summary><b>📊 Моя статистика на GitHub</b></summary>
 <br>
 
 ![Моя статистика на GitHub](https://github-readme-stats.vercel.app/api?username=Doomsday058&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true)
