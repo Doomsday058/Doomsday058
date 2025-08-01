@@ -56,7 +56,7 @@
     <img src="https://img.shields.io/badge/Android%20Studio-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=white" alt="Android Studio" />
     <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman" />
     <img src="https://img.shields.io/badge/Fork-484848?style=for-the-badge&logo=git&logoColor=white" alt="Fork" />
-    <img src="https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white" alt="Unity" />
+    <img src="https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyBmaWxsPSJ3aGl0ZSIgcm9sZT0iaW1nIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHRpdGxlPlVuaXR5PC90aXRsZT48cGF0aCBkPSJNMjEuNDMyIDE4LjA4N2wtNy45NDQgNC41ODd2LTkuMTU5bDMuOTYxIDIuMjgzIDMuOTgzLTIuMjg0em0tOC41ODItOS4xNjhsMy45NjEgMi4yODN2NC41ODZsLTMuOTYtMi4yODMtMy45NjIgMi4yODMtMy45NjEtMi4yODQgMy45NjEtMi4yODQgMy45NjIgMi4yODN2NC41ODdsLTMuOTYyLTIuMjg0di05LjE1OXptOC41ODItMy40M0wxMi44NSA5LjA3NmwtMy45NjEtMi4yODQtNy45NDUtNC41ODcgMy45NjEtMi4yODQgNy45NDUgNC41ODcgNy45NDQtNC41ODd6bS0xMi41NTMgMi4yODNsLTMuOTYxIDIuMjg0djQuNTg3bDMuOTYtMi4yODMtLjAwMS00LjU4OHoiLz48L3N2Zz4=&logoColor=white" alt="Unity" />
 </p>
 
 </details>
