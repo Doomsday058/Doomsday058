@@ -56,7 +56,6 @@
     <img src="https://img.shields.io/badge/Android%20Studio-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=white" alt="Android Studio" />
     <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman" />
     <img src="https://img.shields.io/badge/Fork-484848?style=for-the-badge&logo=git&logoColor=white" alt="Fork" />
-    <img src="https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white" alt="Unity" />
 </p>
 
 </details>
