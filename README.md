@@ -61,11 +61,15 @@
 <br>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Doomsday058&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="Stats" />
-  <br>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Doomsday058&layout=compact&theme=tokyonight&hide_border=true" alt="Top Langs" />
-  <br>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Doomsday058&theme=tokyonight&hide_border=true" alt="Streak" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Doomsday058&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="Stats" />
+  
+  <br><br>
+
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Doomsday058&layout=compact&theme=tokyonight&hide_border=true" alt="Top Langs" />
+  
+  <br><br>
+
+  <img src="https://streak-stats.demolab.com/?user=Doomsday058&theme=tokyonight&hide_border=true" alt="Streak" />
 </div>
 
 </details>
