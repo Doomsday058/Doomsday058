@@ -20,7 +20,7 @@
 
 ---
 
-### 🎯 Флагман – портфолио системного анализа
+### 🎯 Портфолио системного анализа
 
 > **[system-analysis-portfolio](https://github.com/Doomsday058/system-analysis-portfolio)** – демонстрационные кейсы на синтетических данных: постановка задачи, проектирование интеграций и моделей данных, документация решений (BPMN, UML, ER, OpenAPI, Mermaid как diagrams-as-code).
 
