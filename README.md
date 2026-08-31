@@ -100,9 +100,10 @@
 <br>
 
 <div align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Doomsday058&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="Stats" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Doomsday058&theme=tokyonight" alt="Профиль" />
   <br><br>
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Doomsday058&layout=compact&theme=tokyonight&hide_border=true" alt="Top Langs" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Doomsday058&theme=tokyonight" alt="Языки по репозиториям" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Doomsday058&theme=tokyonight" alt="Языки по коммитам" />
   <br><br>
   <img src="https://streak-stats.demolab.com/?user=Doomsday058&theme=tokyonight&hide_border=true" alt="Streak" />
 </div>
