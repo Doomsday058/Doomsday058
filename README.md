@@ -94,3 +94,17 @@
 <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
 
 </details>
+
+<details open>
+<summary><b>📊 Статистика на GitHub</b></summary>
+<br>
+
+<div align="center">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Doomsday058&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="Stats" />
+  <br><br>
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Doomsday058&layout=compact&theme=tokyonight&hide_border=true" alt="Top Langs" />
+  <br><br>
+  <img src="https://streak-stats.demolab.com/?user=Doomsday058&theme=tokyonight&hide_border=true" alt="Streak" />
+</div>
+
+</details>
