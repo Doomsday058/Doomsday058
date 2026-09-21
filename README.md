@@ -36,7 +36,14 @@
 режим без отправки, синтетические примеры и тесты обработки пакета.
 Публичная версия рабочего проекта с демонстрационными данными и бланком.
 
-**Python · FastAPI · pandas · Pydantic · pypdf · pytest**
+<p>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+<img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="pandas" />
+<img src="https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white" alt="Pydantic" />
+<img src="https://img.shields.io/badge/pypdf-B30B00?style=flat-square&logo=adobeacrobatreader&logoColor=white" alt="pypdf" />
+<img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" alt="pytest" />
+</p>
 
 ### [FoodAI](https://github.com/Doomsday058/FoodAI)
 
@@ -48,7 +55,13 @@
 OpenAPI, нормализация ответов модели, тесты и демо-режим без ключа OpenAI.
 Дипломный проект; код восстановлен и доработан по документации ВКР.
 
-**Flutter · Python · Flask · MongoDB · OpenAI API**
+<p>
+<img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" alt="Flask" />
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB" />
+<img src="https://img.shields.io/badge/OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI API" />
+</p>
 
 <!--
 ИИ-КЕЙС — заглушка, допилить и раскомментировать.
@@ -77,7 +90,13 @@ OpenAPI, нормализация ответов модели, тесты и д�
 Синтетические данные с заложенными дефектами; тесты проверяют,
 что анализ находит их в точности.
 
-**SQL (CTE, оконные функции) · SQLite · Python · matplotlib · pytest**
+<p>
+<img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white" alt="SQL" />
+<img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/matplotlib-11557C?style=flat-square&logo=&logoColor=white" alt="matplotlib" />
+<img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" alt="pytest" />
+</p>
 
 ### [Кейсы системного анализа](https://github.com/Doomsday058/system-analysis-portfolio)
 
@@ -87,7 +106,13 @@ OpenAPI, нормализация ответов модели, тесты и д�
 Требования, схемы, контракты, обработка повторных событий и ограничения решений.
 Кейсы построены на синтетических данных и обобщённых сценариях.
 
-**BPMN · UML · ER · OpenAPI · Mermaid**
+<p>
+<img src="https://img.shields.io/badge/BPMN-FF6D00?style=flat-square&logo=&logoColor=white" alt="BPMN" />
+<img src="https://img.shields.io/badge/UML-1E88E5?style=flat-square&logo=&logoColor=white" alt="UML" />
+<img src="https://img.shields.io/badge/ER-6A1B9A?style=flat-square&logo=&logoColor=white" alt="ER" />
+<img src="https://img.shields.io/badge/OpenAPI-6BA539?style=flat-square&logo=openapiinitiative&logoColor=white" alt="OpenAPI" />
+<img src="https://img.shields.io/badge/Mermaid-FF3670?style=flat-square&logo=mermaid&logoColor=white" alt="Mermaid" />
+</p>
 
 ### [Vostok Trade](https://github.com/Doomsday058/vostok_trade)
 
@@ -96,7 +121,13 @@ B2B-приложение для дистрибьютора напитков: к�
 Импорт проверяет файл целиком до записи и заменяет каталог в транзакции:
 битая строка или сбой не оставят магазин без товаров.
 
-**Next.js · TypeScript · MongoDB · JWT · Nodemailer**
+<p>
+<img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB" />
+<img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" alt="JWT" />
+<img src="https://img.shields.io/badge/Nodemailer-22B573?style=flat-square&logo=&logoColor=white" alt="Nodemailer" />
+</p>
 
 ### [FilmAdviser](https://github.com/Doomsday058/filmadviser)
 
@@ -105,7 +136,14 @@ B2B-приложение для дистрибьютора напитков: к�
 Рекомендации используют скоринг; языковая модель отвечает за обзоры
 и преобразование поисковой фразы в фильтры.
 
-**React · Express · Flask · PostgreSQL · TMDB API · OpenAI API**
+<p>
+<img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+<img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" alt="Express" />
+<img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" alt="Flask" />
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+<img src="https://img.shields.io/badge/TMDB_API-01B4E4?style=flat-square&logo=themoviedatabase&logoColor=white" alt="TMDB API" />
+<img src="https://img.shields.io/badge/OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI API" />
+</p>
 
 Также: [REST API каталога сериалов на Haskell / Servant](https://github.com/Doomsday058/haskell-serials-service).
 
@@ -127,6 +165,7 @@ B2B-приложение для дистрибьютора напитков: к�
 ## Стек
 
 #### 📊 Анализ и проектирование
+<p>
 <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL" />
 <img src="https://img.shields.io/badge/BPMN_2.0-FF6D00?style=for-the-badge&logo=&logoColor=white" alt="BPMN 2.0" />
 <img src="https://img.shields.io/badge/UML-1E88E5?style=for-the-badge&logo=&logoColor=white" alt="UML" />
@@ -135,8 +174,10 @@ B2B-приложение для дистрибьютора напитков: к�
 <img src="https://img.shields.io/badge/REST_API-005571?style=for-the-badge&logo=&logoColor=white" alt="REST API" />
 <img src="https://img.shields.io/badge/Webhooks-4A154B?style=for-the-badge&logo=&logoColor=white" alt="Webhooks" />
 <img src="https://img.shields.io/badge/ETL-2E7D32?style=for-the-badge&logo=&logoColor=white" alt="ETL" />
+</p>
 
 #### 🧠 Разработка
+<p>
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
 <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="pandas" />
 <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
@@ -147,8 +188,10 @@ B2B-приложение для дистрибьютора напитков: к�
 <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" />
 <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
 <img src="https://img.shields.io/badge/Google_Apps_Script-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Apps Script" />
+</p>
 
 #### 🗄️ Данные, AI и инструменты
+<p>
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
 <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
 <img src="https://img.shields.io/badge/ClickHouse-FFCC01?style=for-the-badge&logo=clickhouse&logoColor=black" alt="ClickHouse" />
@@ -161,6 +204,7 @@ B2B-приложение для дистрибьютора напитков: к�
 <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman" />
 <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
 <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+</p>
 
 ## Активность
 
