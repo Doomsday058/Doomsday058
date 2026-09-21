@@ -1,112 +1,125 @@
-<h1 align="center">Владислав Фёдоров</h1>
-<p align="center">
-  <b>Системный аналитик</b> · интеграции корпоративных систем
-</p>
+# Владислав Фёдоров
 
-<p align="center">
-  <a href="https://t.me/doomsdayoff"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" /></a>
-  <a href="https://github.com/Doomsday058/system-analysis-portfolio"><img src="https://img.shields.io/badge/Портфолио_системного_анализа-24292F?style=for-the-badge&logo=github&logoColor=white" alt="Портфолио" /></a>
-</p>
+**Аналитик-разработчик · автоматизация, данные и прикладной AI**
 
----
+Разбираюсь в бизнес-процессах, проектирую модели данных и интеграции,
+разрабатываю инструменты для автоматизации. Работаю на стыке системного
+анализа, Python-разработки и операционной аналитики.
 
-### 👨‍💻 Обо мне
+[Telegram](https://t.me/doomsdayoff) ·
+[Email](mailto:fedorov.vlad22213@mail.ru) ·
+[Кейсы проектирования](https://github.com/Doomsday058/system-analysis-portfolio) ·
+[Кейс анализа данных](https://github.com/Doomsday058/leads-reconciliation)
 
-Беру задачу как бизнес-проблему от заказчика и довожу до работающего сервиса в проде: **сбор требований → проектирование контрактов (REST API, вебхуки, OpenAPI) → реализация в коде → поддержка**. Стык «аналитик – разработчик» замкнут на одном человеке: спецификация не теряет смысл на передаче, а противоречия в требованиях вскрываются на проектировании, а не в спринте.
+## Что я делаю
 
-- 🎓 Инженерное образование – **Программная инженерия, ТУСУР** (+ ДПО «Python-разработчик»).
-- 🏥 Домены: **медицинский софт** (медицинская информационная система для стоматологических клиник – запись, расписания, внедрение, отчётность) и **платёжные системы** (транзакционный мониторинг, success rate, инциденты провайдеров).
-- 🧩 Специализация: проектирование интеграций между корпоративными системами, объектное моделирование, ETL.
-- 🌍 Английский C1: работаю с англоязычной документацией и спецификациями.
+- **Автоматизация и данные:** обработка выгрузок, синхронизация реестров,
+  нормализация, дедупликация, проверки качества и генерация документов.
+- **Системный анализ:** требования, модели данных, роли, состояния,
+  API-контракты и сценарии обработки ошибок.
+- **Анализ данных:** определения показателей, сверка источников, SQL
+  с CTE и оконными функциями, выводы для решений по бюджету и процессам.
+- **Прикладной AI:** интеграция языковых моделей в приложения,
+  разбор ответов модели и преобразование их в действия системы.
+- **Разработка приложений:** интерфейсы и API для конкретных пользовательских
+  сценариев. В проектах использую React / Next.js и Flutter.
 
----
+## Избранные проекты
 
-### 🎯 Портфолио системного анализа
+### [Tax Reporter](https://github.com/Doomsday058/tax-reporter)
 
-> **[system-analysis-portfolio](https://github.com/Doomsday058/system-analysis-portfolio)** – демонстрационные кейсы на синтетических данных: постановка задачи, проектирование интеграций и моделей данных, документация решений (BPMN, UML, ER, OpenAPI, Mermaid как diagrams-as-code).
+Подготовка справок об оплате медицинских услуг: загрузка заявок →
+нормализация → проверка бизнес-правил → PDF → пакет документов.
+В рабочей версии цикл подготовки пакета сократился с 3–4 рабочих дней до ~2 часов.
 
-| # | Кейс | Что показано |
-|---|------|--------------|
-| [01](https://github.com/Doomsday058/system-analysis-portfolio/tree/main/case-01-meeting-room-management) | Управление встречами и переговорными | Ролевая модель, конкурентный доступ к ресурсу, статусная модель, отчётность |
-| [02](https://github.com/Doomsday058/system-analysis-portfolio/tree/main/case-02-booking-crm-sync) | Синхронизация онлайн-записи с CRM | Событийная интеграция, идемпотентность, разрешение конфликтов, OpenAPI-контракт |
-| [03](https://github.com/Doomsday058/system-analysis-portfolio/tree/main/case-03-crm-data-pull) | Периодическая выгрузка сделок в реестр | Инкрементальная загрузка по курсору, дедупликация, НФТ |
-| [04](https://github.com/Doomsday058/system-analysis-portfolio/tree/main/case-04-report-automation) | Автоматизация подготовки отчётности | Многоступенчатый пайплайн, human-in-the-loop, валидация, ПДн |
+В репозитории: доменная модель, объяснимые причины отклонения заявок,
+режим без отправки, синтетические примеры и тесты обработки пакета.
+Публичная версия рабочего проекта с демонстрационными данными и бланком.
 
----
+**Python · FastAPI · pandas · Pydantic · pypdf · pytest**
 
-### 💼 Чем занимаюсь сейчас
+### [FoodAI](https://github.com/Doomsday058/FoodAI)
 
-Компания разрабатывает и внедряет медицинскую информационную систему для стоматологических клиник. Веду направление интеграций и внутренних сервисов вокруг продукта – единственный аналитик направления, задачи от выявления требований до внедрения и сопровождения.
+Трекер питания со свободным текстовым и голосовым вводом.
+Ответ языковой модели преобразуется в записи о продуктах и статистику дня,
+по недельной истории ассистент подсказывает, что поменять в рационе.
 
-- **Интеграции CRM** – двусторонний обмен Planfix / Bitrix24 / YClients с внутренними сервисами через REST API и вебхуки: контракты обмена, идемпотентная обработка событий, дедупликация по внешним идентификаторам, разрешение конфликтов версий.
-- **Модуль встреч и переговорных** – спроектировал с нуля: объектная модель, статусная схема, ролевая модель с разграничением данных между клиентами продукта, обработка конкурентного доступа к слотам (блокировки), два канала создания встреч.
-- **ETL-пайплайны** – кросс-системная синхронизация операционных реестров (Python, Google Apps Script): модель синхронизации, дедупликация, агрегация, парсинг входящих PDF. Ручная обработка: **15 ч/нед → 1 ч** на ревью.
-- **[Сервис налоговой отчётности](https://github.com/Doomsday058/tax-reporter)** – end-to-end на Python (pandas, PyPDF): сбор данных по API, валидация, генерация документов по шаблонам, подача через шлюз. Цикл: **3–4 дня → 2 часа**.
-- **Аналитика и витрины** – SQL (CTE, оконные функции): воронка подключения клиник к продукту, воронка записи пациентов, модель атрибуции источников лидов (30+ категорий). Операционные витрины с контролем качества данных, дашборды в Power BI.
+В репозитории: Flutter-клиент, Flask API, проектная документация,
+OpenAPI, нормализация ответов модели, тесты и демо-режим без ключа OpenAI.
+Дипломный проект; код восстановлен и доработан по документации ВКР.
 
----
+**Flutter · Python · Flask · MongoDB · OpenAI API**
 
-<details>
-<summary><b>🧪 Также разрабатываю (пет- и коммерческие проекты)</b></summary>
-<br>
+<!--
+ИИ-КЕЙС — заглушка, допилить и раскомментировать.
+Идея: мультиагентная система с собственной оркестрацией (Бункер-нейрошоу).
+Что показать: машина состояний вне модели, ответ по схеме с проверкой и повтором,
+резервная модель при отказе основной, двухступенчатый вызов (дешёвый фильтр → дорогая модель),
+контроль токенов и стоимости. Перед публикацией — вычистить ключи и приватные данные.
 
-* **[B2B платформа для дистрибуции напитков (ТОО «VOSTOK TRADE COMPANY»)](https://github.com/Doomsday058/vostok_trade):** full-stack на **Next.js (App Router)** и **MongoDB**. Перевёл проект на единую экосистему Next.js, реализовал авторизацию (JWT), личный кабинет и модуль автоматизированной рассылки прайс-листов через SMTP.
-* **[Интеллектуальный кинематографический сервис «FilmAdviser»](https://github.com/Doomsday058/filmadviser):** full-stack на **React**, **Node.js** и **Flask**. Каталог TMDB, избранное, рекомендации по вкусам пользователя и обзоры фильмов от нейросети.
-* **[AI Voice Assistant](https://github.com/Doomsday058/ai-chat-assistant):** full-stack с интеграцией **OpenAI API (GPT-4o-mini)** и **Web Speech API**. Нативный голосовой ввод, Optimistic UI, бэкенд на Node.js.
-* **[FoodAI (дипломная работа)](https://github.com/Doomsday058/FoodAI):** мобильное приложение на **Flutter** и **Flask/MongoDB** – приёмы пищи свободным текстом и голосом, разбор через LLM, статистика дня и рекомендации по недельной истории. В репозитории – проектная документация ВКР: use case, ER-модель, sequence, OpenAPI-контракт.
-* **[serials-api](https://github.com/Doomsday058/haskell-serials-service):** REST API каталога сериалов на **Haskell** и **Servant**, выросший из курсовой работы; сборка и тесты на GitHub Actions.
-* **3D-игра «Лабиринт с элементами хоррора»:** **Unity (C#)**, процедурная генерация лабиринтов.
+### [Название](https://github.com/Doomsday058/...)
 
-</details>
+Одна-две строки: что делает система и зачем.
 
-<details>
-<summary><b>🛠️ Стек технологий</b></summary>
-<br>
+В репозитории: …
 
-#### 📊 Анализ и проектирование
-<img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL" />
-<img src="https://img.shields.io/badge/BPMN_2.0-FF6D00?style=for-the-badge&logo=&logoColor=white" alt="BPMN" />
-<img src="https://img.shields.io/badge/UML-1E88E5?style=for-the-badge&logo=&logoColor=white" alt="UML" />
-<img src="https://img.shields.io/badge/ER--моделирование-6A1B9A?style=for-the-badge&logo=&logoColor=white" alt="ER" />
-<img src="https://img.shields.io/badge/OpenAPI-6BA539?style=for-the-badge&logo=openapiinitiative&logoColor=white" alt="OpenAPI" />
-<img src="https://img.shields.io/badge/REST_API-005571?style=for-the-badge&logo=&logoColor=white" alt="REST API" />
-<img src="https://img.shields.io/badge/Webhooks-4A154B?style=for-the-badge&logo=&logoColor=white" alt="Webhooks" />
-<img src="https://img.shields.io/badge/ETL-2E7D32?style=for-the-badge&logo=&logoColor=white" alt="ETL" />
+**Python · OpenRouter / OpenAI API · …**
+-->
 
-#### 🧠 Языки и библиотеки
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-<img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="pandas" />
-<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-<img src="https://img.shields.io/badge/Google_Apps_Script-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Apps Script" />
-<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
-<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-<img src="https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
+### [Сверка заявок из трёх источников](https://github.com/Doomsday058/leads-reconciliation)
 
-#### 🗄️ Системы, БД и инструменты
-<img src="https://img.shields.io/badge/Planfix-1B74E4?style=for-the-badge&logo=&logoColor=white" alt="Planfix" />
-<img src="https://img.shields.io/badge/Bitrix24-2FC7F7?style=for-the-badge&logo=&logoColor=white" alt="Bitrix24" />
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
-<img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white" alt="Jira" />
-<img src="https://img.shields.io/badge/Confluence-172B4D?style=for-the-badge&logo=confluence&logoColor=white" alt="Confluence" />
-<img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman" />
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+Маркетинг, CRM и сервис онлайн-записи показывают за месяц разное число заявок.
+Единое определение заявки → нормализация → SQL-сверка каждого источника
+водопадом → проверки качества → стоимость заявки и визита по каналам.
+Итог: одна цифра вместо трёх, реальная цена заявки из Директа на 17% выше
+отчётной, найденный сбой вебхуков и потерянные пропущенные звонки.
 
-</details>
+Синтетические данные с заложенными дефектами; тесты проверяют,
+что анализ находит их в точности.
 
-<details open>
-<summary><b>📊 Статистика на GitHub</b></summary>
-<br>
+**SQL (CTE, оконные функции) · SQLite · Python · matplotlib · pytest**
 
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Doomsday058&theme=tokyonight" alt="Профиль" />
-  <br><br>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Doomsday058&theme=tokyonight" alt="Языки по репозиториям" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Doomsday058&theme=tokyonight" alt="Языки по коммитам" />
-  <br><br>
-  <img src="https://streak-stats.demolab.com/?user=Doomsday058&theme=tokyonight&hide_border=true" alt="Streak" />
-</div>
+### [Кейсы системного анализа](https://github.com/Doomsday058/system-analysis-portfolio)
 
-</details>
+Четыре демонстрационных кейса: бронирование переговорных, двусторонняя
+синхронизация записи с CRM, инкрементальная выгрузка и подготовка отчётности.
+
+Требования, схемы, контракты, обработка повторных событий и ограничения решений.
+Кейсы построены на синтетических данных и обобщённых сценариях.
+
+**BPMN · UML · ER · OpenAPI · Mermaid**
+
+### [Vostok Trade](https://github.com/Doomsday058/vostok_trade)
+
+B2B-приложение для дистрибьютора напитков: каталог, личный кабинет,
+загрузка каталога из Excel и отправка прайс-листов по email.
+Импорт проверяет файл целиком до записи и заменяет каталог в транзакции:
+битая строка или сбой не оставят магазин без товаров.
+
+**Next.js · TypeScript · MongoDB · JWT · Nodemailer**
+
+### [FilmAdviser](https://github.com/Doomsday058/filmadviser)
+
+Личный проект: каталог TMDB, избранное, рекомендации по жанровым
+предпочтениям, обзоры и поиск на естественном языке.
+Рекомендации используют скоринг; языковая модель отвечает за обзоры
+и преобразование поисковой фразы в фильтры.
+
+**React · Express · Flask · PostgreSQL · TMDB API · OpenAI API**
+
+Также: [REST API каталога сериалов на Haskell / Servant](https://github.com/Doomsday058/haskell-serials-service).
+
+## Опыт и подход
+
+Работаю с задачами медицинского ПО — внутренние сервисы и интеграции вокруг МИС
+для стоматологических клиник; до этого — аналитиком платёжных систем.
+Операционные реестры, отчётность, качество данных, интеграции CRM и разбор инцидентов.
+Например, синхронизация операционных реестров сократила ручную обработку
+с 15 часов в неделю до часа проверки.
+
+В решениях уделяю внимание определениям показателей, правилам обработки,
+ошибкам и проверке результата. Использую AI-ассистентов при разработке;
+в описаниях проектов показываю устройство решений и их ограничения.
+
+Программная инженерия, ТУСУР · ДПО «Python-разработчик» ·
+Санкт-Петербург · Английский C1.
