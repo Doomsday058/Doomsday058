@@ -63,21 +63,26 @@ OpenAPI, нормализация ответов модели, тесты и д�
 <img src="https://img.shields.io/badge/OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI API" />
 </p>
 
-<!--
-ИИ-КЕЙС — заглушка, допилить и раскомментировать.
-Идея: мультиагентная система с собственной оркестрацией (Бункер-нейрошоу).
-Что показать: машина состояний вне модели, ответ по схеме с проверкой и повтором,
-резервная модель при отказе основной, двухступенчатый вызов (дешёвый фильтр → дорогая модель),
-контроль токенов и стоимости. Перед публикацией — вычистить ключи и приватные данные.
+### [Режиссёр эфира для голосового ИИ-соведущего](https://github.com/Doomsday058/realtime-voice-director)
 
-### [Название](https://github.com/Doomsday058/...)
+Несколько слоёв бота (реакция на игру, разговор, донаты) делят один голос
+в живом эфире. Режиссёр решает, кому и когда говорить: разрешение в две фазы
+(до генерации и в момент первого звука), бюджет речи в секундах, право первого
+слова у стримера по VAD, перебивание только когда звук преемника готов.
 
-Одна-две строки: что делает система и зачем.
+В репозитории: эталонная реализация, потоковая озвучка, журнал решений и отчёт,
+разборы трёх живых эфиров и модель эфира, которая на старых правилах повторяет
+реальный провал. На новых правилах бот озвучивает 42 игровых повода из 115
+вместо 10 и ни разу не начинает поверх стримера.
 
-В репозитории: …
-
-**Python · OpenRouter / OpenAI API · …**
--->
+<p>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/LLM-412991?style=flat-square&logo=&logoColor=white" alt="LLM" />
+<img src="https://img.shields.io/badge/TTS_·_STT-FF6F00?style=flat-square&logo=&logoColor=white" alt="TTS · STT" />
+<img src="https://img.shields.io/badge/Real--time-C2185B?style=flat-square&logo=&logoColor=white" alt="Real-time" />
+<img src="https://img.shields.io/badge/matplotlib-11557C?style=flat-square&logo=&logoColor=white" alt="matplotlib" />
+<img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" alt="pytest" />
+</p>
 
 ### [Сверка заявок из трёх источников](https://github.com/Doomsday058/leads-reconciliation)
 
