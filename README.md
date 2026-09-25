@@ -8,8 +8,8 @@
 
 [Telegram](https://t.me/doomsdayoff) ·
 [Email](mailto:fedorov.vlad22213@mail.ru) ·
-[Кейсы проектирования](https://github.com/Doomsday058/system-analysis-portfolio) ·
-[Кейс анализа данных](https://github.com/Doomsday058/leads-reconciliation)
+[Кейсы проектирования](https://github.com/doomsdayoff/system-analysis-portfolio) ·
+[Кейс анализа данных](https://github.com/doomsdayoff/leads-reconciliation)
 
 ## Что я делаю
 
@@ -26,7 +26,7 @@
 
 ## Избранные проекты
 
-### [Tax Reporter](https://github.com/Doomsday058/tax-reporter)
+### [Tax Reporter](https://github.com/doomsdayoff/tax-reporter)
 
 Подготовка справок об оплате медицинских услуг: загрузка заявок →
 нормализация → проверка бизнес-правил → PDF → пакет документов.
@@ -45,7 +45,7 @@
 <img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" alt="pytest" />
 </p>
 
-### [FoodAI](https://github.com/Doomsday058/FoodAI)
+### [FoodAI](https://github.com/doomsdayoff/FoodAI)
 
 Трекер питания со свободным текстовым и голосовым вводом.
 Ответ языковой модели преобразуется в записи о продуктах и статистику дня,
@@ -63,7 +63,7 @@ OpenAPI, нормализация ответов модели, тесты и д�
 <img src="https://img.shields.io/badge/OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI API" />
 </p>
 
-### [Режиссёр эфира для голосового ИИ-соведущего](https://github.com/Doomsday058/realtime-voice-director)
+### [Режиссёр эфира для голосового ИИ-соведущего](https://github.com/doomsdayoff/realtime-voice-director)
 
 Несколько слоёв бота (реакция на игру, разговор, донаты) делят один голос
 в живом эфире. Режиссёр решает, кому и когда говорить: разрешение в две фазы
@@ -84,7 +84,7 @@ OpenAPI, нормализация ответов модели, тесты и д�
 <img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" alt="pytest" />
 </p>
 
-### [Сверка заявок из трёх источников](https://github.com/Doomsday058/leads-reconciliation)
+### [Сверка заявок из трёх источников](https://github.com/doomsdayoff/leads-reconciliation)
 
 Маркетинг, CRM и сервис онлайн-записи показывают за месяц разное число заявок.
 Единое определение заявки → нормализация → SQL-сверка каждого источника
@@ -103,7 +103,7 @@ OpenAPI, нормализация ответов модели, тесты и д�
 <img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" alt="pytest" />
 </p>
 
-### [Кейсы системного анализа](https://github.com/Doomsday058/system-analysis-portfolio)
+### [Кейсы системного анализа](https://github.com/doomsdayoff/system-analysis-portfolio)
 
 Четыре демонстрационных кейса: бронирование переговорных, двусторонняя
 синхронизация записи с CRM, инкрементальная выгрузка и подготовка отчётности.
@@ -119,7 +119,7 @@ OpenAPI, нормализация ответов модели, тесты и д�
 <img src="https://img.shields.io/badge/Mermaid-FF3670?style=flat-square&logo=mermaid&logoColor=white" alt="Mermaid" />
 </p>
 
-### [Vostok Trade](https://github.com/Doomsday058/vostok_trade)
+### [Vostok Trade](https://github.com/doomsdayoff/vostok_trade)
 
 B2B-приложение для дистрибьютора напитков: каталог, личный кабинет,
 загрузка каталога из Excel и отправка прайс-листов по email.
@@ -134,7 +134,7 @@ B2B-приложение для дистрибьютора напитков: к�
 <img src="https://img.shields.io/badge/Nodemailer-22B573?style=flat-square&logo=&logoColor=white" alt="Nodemailer" />
 </p>
 
-### [FilmAdviser](https://github.com/Doomsday058/filmadviser)
+### [FilmAdviser](https://github.com/doomsdayoff/filmadviser)
 
 Личный проект: каталог TMDB, избранное, рекомендации по жанровым
 предпочтениям, обзоры и поиск на естественном языке.
@@ -150,7 +150,7 @@ B2B-приложение для дистрибьютора напитков: к�
 <img src="https://img.shields.io/badge/OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI API" />
 </p>
 
-Также: [REST API каталога сериалов на Haskell / Servant](https://github.com/Doomsday058/haskell-serials-service).
+Также: [REST API каталога сериалов на Haskell / Servant](https://github.com/doomsdayoff/haskell-serials-service).
 
 ## Опыт и подход
 
@@ -214,8 +214,8 @@ B2B-приложение для дистрибьютора напитков: к�
 ## Активность
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Doomsday058&theme=tokyonight" alt="Активность на GitHub" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=doomsdayoff&theme=tokyonight" alt="Активность на GitHub" />
   <br><br>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Doomsday058&theme=tokyonight" alt="Языки по репозиториям" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Doomsday058&theme=tokyonight" alt="Языки по коммитам" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=doomsdayoff&theme=tokyonight" alt="Языки по репозиториям" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=doomsdayoff&theme=tokyonight" alt="Языки по коммитам" />
 </div>
