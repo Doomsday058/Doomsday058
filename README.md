@@ -1,6 +1,19 @@
-# Владислав Фёдоров
+<p align="center">
+<img src="assets/header.svg" alt="Владислав Фёдоров – аналитик-разработчик: автоматизация, данные и прикладной AI" width="100%" />
+</p>
 
-**Аналитик-разработчик · автоматизация, данные и прикладной AI**
+<p align="center">
+<img src="assets/motto.svg" alt="&gt; модель предлагает – система проверяет" width="80%" />
+</p>
+
+<p align="center">
+<img src="https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white" alt="SQL" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/BPMN-FF6D00?style=flat&logo=&logoColor=white" alt="BPMN" />
+<img src="https://img.shields.io/badge/OpenAPI-6BA539?style=flat&logo=openapiinitiative&logoColor=white" alt="OpenAPI" />
+<img src="https://img.shields.io/badge/LLM-8E6BD8?style=flat&logo=&logoColor=white" alt="LLM" />
+<img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat&logo=pytest&logoColor=white" alt="pytest" />
+</p>
 
 Разбираюсь в бизнес-процессах, проектирую модели данных и интеграции,
 разрабатываю инструменты для автоматизации. Работаю на стыке системного
