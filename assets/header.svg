@@ -33,38 +33,55 @@
   <text x="82" y="172" class="sans" font-size="15" textLength="640" lengthAdjust="spacing" fill="#56d4dd">АНАЛИТИК-РАЗРАБОТЧИК · АВТОМАТИЗАЦИЯ · ДАННЫЕ · ПРИКЛАДНОЙ AI</text>
   <text x="82" y="210" class="mono" font-size="14" fill="#7d8b96">SQL · Python · BPMN · OpenAPI · LLM-оркестрация</text>
 
-  <!-- правая часть: процесс, где модель предлагает, а система проверяет -->
+  <!-- правая часть: источники → данные → LLM или правила → проверка схемы; ответ, не прошедший проверку, идёт на повтор -->
   <line x1="760" y1="48" x2="760" y2="252" stroke="#21262d"/>
-
-  <path class="edge" d="M801 150 H816"/>
-  <path class="edge" d="M896 150 H910"/>
-  <path class="edge" d="M924 136 V102 H956"/>
-  <path class="edge" d="M924 164 V198 H956"/>
-  <path class="edge" d="M1036 102 H1050 V150 H1064"/>
-  <path class="edge" d="M1036 198 H1050 V150"/>
-  <path class="edge" d="M1144 150 H1161"/>
-  <path class="retry" d="M1104 132 V72 H996 V86"/>
-  <text x="1050" y="66" class="mono" font-size="11" fill="#56d4dd" text-anchor="middle">повтор</text>
-
-  <circle cx="792" cy="150" r="9" fill="#0d1117" stroke="#2b8a93" stroke-width="1.5"/>
-  <rect x="816" y="132" width="80" height="36" rx="5" class="node"/>
-  <text x="856" y="155" class="mono label" text-anchor="middle">данные</text>
-  <path d="M924 136 L938 150 L924 164 L910 150 Z" class="node"/>
-  <rect x="956" y="86" width="80" height="32" rx="5" class="node-llm"/>
-  <text x="996" y="107" class="mono label" text-anchor="middle">LLM</text>
-  <rect x="956" y="182" width="80" height="32" rx="5" class="node"/>
-  <text x="996" y="203" class="mono label" text-anchor="middle">правила</text>
-  <rect x="1064" y="132" width="80" height="36" rx="5" class="node"/>
-  <text x="1104" y="155" class="mono label" text-anchor="middle">схема ✓</text>
-  <circle cx="1170" cy="150" r="9" fill="#0d1117" stroke="#56d4dd" stroke-width="3"/>
-
-  <circle r="4" fill="#56d4dd">
-    <animateMotion dur="5s" repeatCount="indefinite"
-      path="M792 150 H924 V102 H1050 V150 H1170"/>
+  <path class="edge" d="M818 108 H832 V192"/>
+  <path class="edge" d="M818 150 H846"/>
+  <path class="edge" d="M818 192 H832"/>
+  <path class="edge" d="M914 150 H929"/>
+  <path class="edge" d="M942 137 V102 H972"/>
+  <path class="edge" d="M942 163 V198 H972"/>
+  <path class="edge" d="M1040 102 H1054 V150 H1070"/>
+  <path class="edge" d="M1040 198 H1054 V150"/>
+  <path class="edge" d="M1138 150 H1157"/>
+  <path class="retry" d="M1104 132 V70 H1006 V86"/>
+  <text x="1055" y="63" class="mono" font-size="11" fill="#56d4dd" text-anchor="middle">повтор</text>
+  <rect x="772" y="98" width="46" height="20" rx="10" fill="#0d1117" stroke="#3a4652"/>
+  <text x="795" y="112" class="mono" font-size="10.5" fill="#8b949e" text-anchor="middle">CRM</text>
+  <rect x="772" y="140" width="46" height="20" rx="10" fill="#0d1117" stroke="#3a4652"/>
+  <text x="795" y="154" class="mono" font-size="10.5" fill="#8b949e" text-anchor="middle">API</text>
+  <rect x="772" y="182" width="46" height="20" rx="10" fill="#0d1117" stroke="#3a4652"/>
+  <text x="795" y="196" class="mono" font-size="10.5" fill="#8b949e" text-anchor="middle">Excel</text>
+  <rect x="846" y="132" width="68" height="36" rx="5" class="node"/>
+  <text x="880" y="155" class="mono label" text-anchor="middle">данные</text>
+  <path d="M942 137 L955 150 L942 163 L929 150 Z" class="node"/>
+  <rect x="972" y="86" width="68" height="32" rx="5" class="node-llm"/>
+  <text x="1006" y="107" class="mono label" text-anchor="middle">LLM</text>
+  <rect x="972" y="182" width="68" height="32" rx="5" class="node"/>
+  <text x="1006" y="203" class="mono label" text-anchor="middle">правила</text>
+  <rect x="1070" y="132" width="68" height="36" rx="5" class="node">
+    <animate attributeName="stroke" dur="10.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.0000;0.0378;0.0928;0.3141;0.3691;0.5230;0.5780;0.7741;0.8291" values="#2b8a93;#56d4dd;#2b8a93;#56d4dd;#2b8a93;#56d4dd;#2b8a93;#f47067;#2b8a93"/>
+  </rect>
+  <text x="1104" y="155" class="mono label" text-anchor="middle">схема</text>
+  <text x="1142" y="128" class="mono" font-size="13" fill="#f47067" opacity="0">✗
+    <animate attributeName="opacity" dur="10.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.0000;0.7741;0.8641" values="0;1;0"/>
+  </text>
+  <text x="1142" y="128" class="mono" font-size="13" fill="#56d4dd" opacity="0">✓
+    <animate attributeName="opacity" dur="10.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.0000;0.0378;0.1278;0.3141;0.4041;0.5230;0.6130" values="0;1;0;1;0;1;0"/>
+  </text>
+  <circle cx="1166" cy="150" r="9" fill="#0d1117" stroke="#56d4dd" stroke-width="3">
+    <animate attributeName="fill" dur="10.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.0000;0.0837;0.1287;0.3600;0.4050;0.5689;0.6139" values="#0d1117;#56d4dd;#0d1117;#56d4dd;#0d1117;#56d4dd;#0d1117"/>
   </circle>
-  <circle r="3" fill="#8e6bd8" opacity="0.8" visibility="hidden">
-    <set attributeName="visibility" to="visible" begin="2.5s"/>
-    <animateMotion dur="5s" begin="2.5s" repeatCount="indefinite"
-      path="M792 150 H924 V198 H1050 V150 H1170"/>
+  <circle r="3.8" fill="#8e6bd8" opacity="0">
+    <animateMotion dur="10.0s" begin="0.0s" repeatCount="indefinite" calcMode="linear" keyPoints="0;1;1" keyTimes="0;0.3600;1" path="M818 108 L832 108 L832 150 L880 150 L942 150 L942 102 L1006 102 L1054 102 L1054 150 L1104 150 L1166 150"/>
+    <animate attributeName="opacity" dur="10.0s" begin="0.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.3600" values="1;0"/>
+  </circle>
+  <circle r="3.8" fill="#56d4dd" opacity="0">
+    <animateMotion dur="10.0s" begin="2.4s" repeatCount="indefinite" calcMode="linear" keyPoints="0;1;1" keyTimes="0;0.3289;1" path="M818 150 L880 150 L942 150 L942 198 L1054 198 L1054 150 L1104 150 L1166 150"/>
+    <animate attributeName="opacity" dur="10.0s" begin="2.4s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.3289" values="1;0"/>
+  </circle>
+  <circle r="3.8" fill="#8e6bd8" opacity="0">
+    <animateMotion dur="10.0s" begin="4.6s" repeatCount="indefinite" calcMode="linear" keyPoints="0;1;1" keyTimes="0;0.6237;1" path="M818 192 L832 192 L832 150 L880 150 L942 150 L942 102 L1006 102 L1054 102 L1054 150 L1104 150 L1104 70 L1006 70 L1006 102 L1054 102 L1054 150 L1104 150 L1166 150"/>
+    <animate attributeName="opacity" dur="10.0s" begin="4.6s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.6237" values="1;0"/>
   </circle>
 </svg>
