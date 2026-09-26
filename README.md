@@ -1,5 +1,5 @@
 <p align="center">
-<img src="assets/header.svg" alt="Владислав Фёдоров – аналитик-разработчик: автоматизация, данные и прикладной AI" width="100%" />
+<img src="assets/header.svg?v=2" alt="Владислав Фёдоров – аналитик-разработчик: автоматизация, данные и прикладной AI" width="100%" />
 </p>
 
 <p align="center">
